@@ -1,63 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-  <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{2564A034-CAA1-4CCA-BFC3-5494E51FA7C0}</UniqueIdentifier>
-      <Extensions>h;hpp</Extensions>
-    </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{8752A36E-4579-4291-A037-FE918EBA9873}</UniqueIdentifier>
-      <Extensions>cpp;c</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{12B2B966-765C-4272-AB1E-A9FA811AFAE8}</UniqueIdentifier>
-      <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\src\snake\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\snake\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\..\src\snake\main.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\snake\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\snake\resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <None Include="..\..\..\src\snake\app.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\src\snake\app.rc">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="..\..\..\src\snake\small.ico">
-      <Filter>Resource Files</Filter>
-    </None>
-    <ClCompile Include="..\..\..\src\snake\GameControlleur.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\snake\GameManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\src\snake\SnakeLogics.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\src\snake\GameControlleur.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\snake\GameManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\snake\SnakeLogics.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
+    <ItemGroup>
+        <Filter Include="Header Files">
+            <UniqueIdentifier>{28D6014B-12DE-4C72-87AE-04C6F2E5A922}</UniqueIdentifier>
+            <Extensions>h;hpp</Extensions>
+        </Filter>
+        <Filter Include="Source Files">
+            <UniqueIdentifier>{AA968AE9-FF7C-4F9B-8803-05C7FD6EFDE7}</UniqueIdentifier>
+            <Extensions>cpp;c</Extensions>
+        </Filter>
+        <Filter Include="Resource Files">
+            <UniqueIdentifier>{E9C0ED7F-1E94-4930-96C4-84FB1CBE4347}</UniqueIdentifier>
+            <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\snake\GameControlleur.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\snake\GameManager.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\snake\main.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\snake\pch.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClCompile Include="..\..\..\src\snake\SnakeLogics.cpp">
+            <Filter>Source Files</Filter>
+        </ClCompile>
+        <ClInclude Include="..\..\..\src\snake\GameControlleur.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\snake\GameManager.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\snake\main.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\snake\pch.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\snake\resource.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <ClInclude Include="..\..\..\src\snake\SnakeLogics.h">
+            <Filter>Header Files</Filter>
+        </ClInclude>
+        <None Include="..\..\..\src\snake\app.ico">
+            <Filter>Resource Files</Filter>
+        </None>
+        <None Include="..\..\..\src\snake\app.rc">
+            <Filter>Resource Files</Filter>
+        </None>
+        <None Include="..\..\..\src\snake\small.ico">
+            <Filter>Resource Files</Filter>
+        </None>
+    </ItemGroup>
 </Project>
